@@ -1,7 +1,6 @@
 ---
 label: Page
 hide_body: true
-display_field: title
 fields:
 - type: text
   name: title
@@ -12,3 +11,5 @@ fields:
 - type: blocks
   name: blocks
   label: Blocks
+  template_types:
+  - simple-hero
