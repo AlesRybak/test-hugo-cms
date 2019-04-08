@@ -12,4 +12,5 @@ fields:
   name: blocks
   label: Blocks
   template_types:
+  - columns
   - simple-hero
