@@ -1,4 +1,17 @@
 ---
 label: Simple Hero
 hide_body: true
-fields: []
+fields:
+- type: text
+  name: title
+  label: Hero Title
+- type: textarea
+  name: text
+  label: Hero Text
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: file
+  name: background
+  label: Hero Background
