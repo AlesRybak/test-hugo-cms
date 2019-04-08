@@ -14,3 +14,5 @@ fields:
   template_types:
   - columns
   - simple-hero
+pages:
+- site/content/my-simple-sample.md
