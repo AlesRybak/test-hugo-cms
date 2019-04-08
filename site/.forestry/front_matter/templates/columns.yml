@@ -1,4 +1,21 @@
 ---
 label: Columns
 hide_body: true
-fields: []
+fields:
+- type: text
+  name: heading
+  label: Heading
+- type: field_group_list
+  name: columns
+  label: Columns
+  config:
+    min: '2'
+    max: '4'
+    labelField: heading
+  fields:
+  - type: text
+    name: heading
+    label: Heading
+  - type: textarea
+    name: text
+    label: Text
