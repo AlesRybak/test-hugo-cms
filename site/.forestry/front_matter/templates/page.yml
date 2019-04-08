@@ -1,6 +1,7 @@
 ---
 label: Page
 hide_body: true
+display_field: title
 fields:
 - type: text
   name: title
@@ -8,46 +9,6 @@ fields:
 - type: text
   name: subtitle
   label: subtitle
-- type: file
-  name: image
-  label: image
-- type: field_group
-  name: blurb
-  label: blurb
-  fields:
-  - type: text
-    name: heading
-    label: heading
-  - type: textarea
-    name: text
-    label: text
-- type: field_group
-  name: intro
-  label: intro
-  fields:
-  - type: text
-    name: heading
-    label: heading
-  - type: textarea
-    name: text
-    label: text
-- type: field_group_list
-  name: products
-  label: products
-  fields:
-  - type: file
-    name: image
-    label: image
-  - type: textarea
-    name: text
-    label: text
-- type: field_group
-  name: values
-  label: values
-  fields:
-  - type: text
-    name: heading
-    label: heading
-  - type: textarea
-    name: text
-    label: text
+- type: blocks
+  name: blocks
+  label: Blocks
